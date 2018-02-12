@@ -18,7 +18,7 @@ The following chapters give you a brief description of what you need to set up a
 4. View default website via browser to check public availability
 5. Deploy simple web service/API that runs several seconds per request
     * Deploy it from within Visual Studio using Web Deploy. Follow this [guide](https://github.com/aspnet/Tooling/blob/AspNetVMs/docs/publish-web-app-from-visual-studio.md).
-    * We suggest to implement API accepting a GET-Request like */api/compute/{int-value}* which computes the fibonacci sequence using recursion. (Values around 43-48 should result in run times of 5-30 seconds).
+    * We suggest to implement API accepting a GET-Request like ```/api/compute/{int-value}``` which computes the fibonacci sequence using recursion. (Values around 43-48 should result in run times of 5-30 seconds).
     * You may use this example web app or feel free to implement your own REST-Api. Only constraints are, that it must run in a default IIS installation and accepts he requests via HTTP GET.
 
 ## 2. Setup second VM for Load Balancing
